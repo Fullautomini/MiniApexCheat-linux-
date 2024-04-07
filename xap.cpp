@@ -400,11 +400,11 @@ void RenderUI()
         }
 
         std::stringstream TitleText, Date, Time, Version, UnknownCheats, Spacings;
-        TitleText << "zap-client";
+        TitleText << "Apex. ";
         Date << OverlayWindow.currentDateTime(2);
         Time << OverlayWindow.currentDateTime(3);
-        Version << "Version 1.0.5";
-        UnknownCheats << "unknowncheats.me";
+        Version << "Version 1";
+        UnknownCheats << "By Liam ;)";
         Spacings << "  |  ";
         std::string combined = TitleText.str() + Spacings.str() + Date.str() + Spacings.str() + Time.str() + Spacings.str() + Version.str() + Spacings.str() + UnknownCheats.str();
         const char *combinedText = combined.c_str();
