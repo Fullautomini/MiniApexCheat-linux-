@@ -631,28 +631,7 @@ int main(int argc, char *argv[])
 
     std::this_thread::sleep_for(std::chrono::milliseconds(1));
 
-    std::cout << "                                                   ████   ███                       █████   " << std::endl;
-    std::this_thread::sleep_for(std::chrono::milliseconds(50));
-    std::cout << "                                                  ░░███  ░░░                       ░░███    " << std::endl;
-    std::this_thread::sleep_for(std::chrono::milliseconds(50));
-    std::cout << " █████████  ██████   ████████              ██████  ░███  ████   ██████  ████████   ███████  " << std::endl;
-    std::this_thread::sleep_for(std::chrono::milliseconds(50));
-    std::cout << "░█░░░░███  ░░░░░███ ░░███░░███ ██████████ ███░░███ ░███ ░░███  ███░░███░░███░░███ ░░░███░   " << std::endl;
-    std::this_thread::sleep_for(std::chrono::milliseconds(50));
-    std::cout << "░   ███░    ███████  ░███ ░███░░░░░░░░░░ ░███ ░░░  ░███  ░███ ░███████  ░███ ░███   ░███    " << std::endl;
-    std::this_thread::sleep_for(std::chrono::milliseconds(50));
-    std::cout << "  ███░   █ ███░░███  ░███ ░███           ░███  ███ ░███  ░███ ░███░░░   ░███ ░███   ░███ ███" << std::endl;
-    std::this_thread::sleep_for(std::chrono::milliseconds(50));
-    std::cout << " █████████░░████████ ░███████            ░░██████  █████ █████░░██████  ████ █████  ░░█████ " << std::endl;
-    std::this_thread::sleep_for(std::chrono::milliseconds(50));
-    std::cout << "░░░░░░░░░  ░░░░░░░░  ░███░░░              ░░░░░░  ░░░░░ ░░░░░  ░░░░░░  ░░░░ ░░░░░    ░░░░░  " << std::endl;
-    std::this_thread::sleep_for(std::chrono::milliseconds(50));
-    std::cout << "                     ░███                                                                   " << std::endl;
-    std::this_thread::sleep_for(std::chrono::milliseconds(50));
-    std::cout << "                     █████                                                                  " << std::endl;
-    std::this_thread::sleep_for(std::chrono::milliseconds(50));
-    std::cout << "                    ░░░░░                                                                   " << std::endl;
-
+   
     std::this_thread::sleep_for(std::chrono::seconds(1));
     std::cout << "Apex Client - ver 1.0.5" << std::endl;
     std::this_thread::sleep_for(std::chrono::seconds(1));
